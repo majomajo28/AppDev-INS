@@ -5,8 +5,8 @@ public class MyCsharp
 	public static void Main(string[] args)
 	{
 		
-    MyCsharp fullname = new MyCsharp();
-    fullname.printName("SUMAGUE, MARJORIE ANN ");
+    MyCsharp pin = new MyCsharp();
+    pin.printName("SUMAGUE, MARJORIE ANN ");
 	}
 	
 	public void printName(string name)
@@ -14,3 +14,5 @@ public class MyCsharp
 		Console.WriteLine("Hello! My name is " + name);
 	}
 }
+
+
