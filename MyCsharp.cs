@@ -1,16 +1,16 @@
 using System;
 					
-public class MyCsharp
+public class Program
 {
-	public static void Main(string[] args)
+	public static void Main()
 	{
-		// Insert code from line below this comment where it instantiates the MyCsharp object into variable named pin, then call the method named printName(String name);
-    // Expected Line 1, replace this comment with code on pull request
-    // Expected Line 2, replace this comment with code on pull request
-	}
-	
-	public void printName(string name)
-	{
-		Console.WriteLine("Hello! My name is " + name);
+		Console.WriteLine("Enter your First Name: ");
+		String FirstName= Console.ReadLine();
+		
+		Console.WriteLine("Enter your Last Name: ");
+		String LastName= Console.ReadLine();
+		
+		Console.WriteLine("Hello! My name is " + FirstName + " " + LastName);
+		
 	}
 }
