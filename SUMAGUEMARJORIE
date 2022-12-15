@@ -1,0 +1,16 @@
+using System;
+					
+public class MyCsharp
+{
+	public static void Main(string[] args)
+	{
+		
+    MyCsharp fullname = new MyCsharp();
+    fullname.printName("SUMAGUE, MARJORIE ANN ");
+	}
+	
+	public void printName(string name)
+	{
+		Console.WriteLine("Hello! My name is " + name);
+	}
+}
