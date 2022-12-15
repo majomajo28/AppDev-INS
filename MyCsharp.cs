@@ -1,15 +1,16 @@
 using System;
 					
-public class MyCsharp
+public class Program
 {
-	public static void Main(string lastName, string firstName)
+	public static void Main()
 	{
-		lastName = SUMAGUE;
-		firstName = MARJORIEANN;
-	}
-	
-	public void printName(string lastName, firstName)
-	{
-		Console.WriteLine("Hello! My name is " + LastName+"_"+firstName);
+		Console.WriteLine("Enter your First Name: ");
+		String FirstName= Console.ReadLine();
+		
+		Console.WriteLine("Enter your Last Name: ");
+		String LastName= Console.ReadLine();
+		
+		Console.WriteLine("Hello! My name is " + FirstName + " " + LastName);
+		
 	}
 }
